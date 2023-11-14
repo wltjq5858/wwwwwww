@@ -10,24 +10,24 @@
     <div id="calculator">
         <input type="text" id="result" readonly>
         <div class="buttons">
-            <button onclick="appendToResult('7')">7</button>
-            <button onclick="appendToResult('8')">8</button>
-            <button onclick="appendToResult('9')">9</button>
+            <button class="number" onclick="appendToResult('7')">7</button>
+            <button class="number" onclick="appendToResult('8')">8</button>
+            <button class="number" onclick="appendToResult('9')">9</button>
             <button class="operator" onclick="appendToResult('/')">/</button>
 
-            <button onclick="appendToResult('4')">4</button>
-            <button onclick="appendToResult('5')">5</button>
-            <button onclick="appendToResult('6')">6</button>
+            <button class="number" onclick="appendToResult('4')">4</button>
+            <button class="number" onclick="appendToResult('5')">5</button>
+            <button class="number" onclick="appendToResult('6')">6</button>
             <button class="operator" onclick="appendToResult('-')">-</button>
 
-            <button onclick="appendToResult('1')">1</button>
-            <button onclick="appendToResult('2')">2</button>
-            <button onclick="appendToResult('3')">3</button>
+            <button class="number" onclick="appendToResult('1')">1</button>
+            <button class="number" onclick="appendToResult('2')">2</button>
+            <button class="number" onclick="appendToResult('3')">3</button>
             <button class="operator" onclick="appendToResult('+')">+</button>
 
-            <button onclick="appendToResult('0')">0</button>
-            <button onclick="appendToResult('.')">.</button>
-            <button id="clear" onclick="clearResult()">C</button>
+            <button class="number" onclick="appendToResult('0')">0</button>
+            <button class="decimal" onclick="appendToResult('.')">.</button>
+            <button class="clear" onclick="clearResult()">C</button>
             <button class="operator" onclick="calculateResult()">=</button>
         </div>
     </div>
